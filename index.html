@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>current-balance</title>
+</head>
+<body>
+    <div class="container">
+        <div class="surrent">
+            <form class="form" method="post" action="https://echo.htmlacademy.ru/">
+                <div class="form-left">
+                    <div class="form-left__top-hero">
+                        <h1 class="form-left__head">My Wallets</h1>
+                        <img class="form-left__img" src="./images/plas-img.jpg" width="20" height="20" alt="plas img">
+                    </div>
+
+                    <div class="form-left__basic">
+
+                        <div class="form-left__inp-leb">
+                            <label>
+                              <input type="radio" name="card type" value="Visa">
+                              <span class="form-left__card first-card">
+                                <img class="form-left__visa" src="./images/visa-img.png" alt="visa img" width="60px" height="25px">
+                                <p class="form-left__pgh number-card">**** **** **** 2562</p>
+                                <p class="form-left__pgh">Valid thru:12/17</p>
+                            </span>
+                            </label>
+                        </div>
+
+                        <div class="form-left__inp-leb">
+                            <label>
+                              <input type="radio" name="card type" value="Master">
+                              <span class="form-left__card">
+                                <img class="form-left__visa master-img" src="./images/master-card.png" alt="visa img" width="75px" height="60px">
+                                <div class="master-desc">
+                                    <p class="form-left__pgh number-card">**** **** **** 2562</p>
+                                    <p class="form-left__pgh">Valid thru:12/17</p>
+                                </div>
+                            </span>
+                            </label>
+                        </div>
+
+                        <div class="form-left__inp-leb">
+                            <label>
+                              <input type="radio" name="card type" value="Maestro">
+                              <span class="form-left__card">
+                                <img class="form-left__visa maestro-img" src="./images/masestro-img.png" alt="visa img" width="60px" height="30px">
+                                <p class="form-left__pgh number-card">**** **** **** 2562</p>
+                                <p class="form-left__pgh">Valid thru:12/17</p>
+                            </span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-right">
+                    <div class="form-right__top-hero">
+                        <h2 class="form-right__head">Current Balance</h2>
+                        <p class="form-right__number">$729.</p>
+                    </div>
+                    <hr>
+
+                    <div class="form-right__bottom">
+                        <div class="form-right__iphone">
+
+                            <label class="form__label-one" for="surent">
+                                <input id="surent" class="right-input" type="checkbox" name="Selected product" value="Apple iPhone 7,128 GB">
+                                <span class="right-circle"></span>
+                                <div>
+                                    <p class="apple-pgh">Apple iPhone 7,128 GB</p>
+                                    <p class="elec-pgh">Electronics #32343424 - 12 July 2015 </p>
+                                 </div>
+
+                                 <p class="right-controller">$650.</p>
+                            </label>
+
+
+                            <label class="funds">
+                                <input class="funds__input" type="checkbox" name="Selected product" value="Funds Added">
+                                <span class="right-circle funds__span"></span>
+
+                                <div>
+                                    <p class="apple-pgh funds__desc">Funds Added</p>
+                                    <p class="elec-pgh funds__desc">Payment #5435 - 11 July 2015</p>
+                                </div>
+
+                                <p class="right-controller funds__balans">$900.</p>
+                            </label>
+
+                            <label class="funds">
+                                <input class="funds__input" type="checkbox" name="Selected product" value="Energy Bill">
+                                <span class="right-circle funds__span"></span>
+
+                                <div>
+                                    <p class="apple-pgh funds__desc">Energy Bill</p>
+                                    <p class="elec-pgh funds__desc">Other #745237423 - 11 July 2015</p>
+                                </div>
+
+                                <p class="right-controller funds__balan">$84.</p>
+                            </label>
+
+                            <label class="funds">
+                                <input class="funds__input" type="checkbox" name="Selected product" value="The Eye Cinema Ticket">
+                                <span class="right-circle funds__span"></span>
+
+                                <div class="last-right__box">
+                                    <p class="apple-pgh funds__desc">The Eye Cinema Ticket</p>
+                            <p class="elec-pgh funds__desc">Entertaiment #32343424 - 10 July</p>
+                                </div>
+
+                                <p class="right-controller funds__bala">$40.</p>
+                            </label>
+
+                        </div>
+                        <button style="border-color:blue;color:blue;background-color:#fff;padding:10px;border-radius:10px; opacity: 0.6;position: relative;left:160px;top:10px ;"type="reset">Cancel The Order</button>
+                        <button style="border-color: blue;color:blue;background-color:#fff;padding:10px;border-radius:10px; opacity: 0.6;position: relative;left:178px;top: 10px;">Place An Order</button>
+                    </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
